@@ -1,8 +1,9 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Preview
 
-Currently, two official plugins are available:
+Pagina principal
+![image](https://github.com/josrojas/ticketmaster-events-API/assets/73319827/7d85f276-95ee-4546-896b-283b1b56b7bc)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ver más
+![image](https://github.com/josrojas/ticketmaster-events-API/assets/73319827/13f26d71-280d-4d48-9f90-b330bd7d59e7)

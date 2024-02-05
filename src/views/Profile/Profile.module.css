@@ -16,6 +16,7 @@
 
 .TabsContainer{
     margin: 12px 0;
+    cursor: pointer;
 }
 
 .homeLink{

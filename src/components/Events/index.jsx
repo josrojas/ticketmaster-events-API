@@ -11,8 +11,6 @@ const Events = ({ searchTerm, events }) => {
         navigate(`/detail/${id}`);
     };
 
-    console.log('rendered events');
-
     //Filter events - searchBar
     const renderEvents = () => {
         let eventsFiltered = events;

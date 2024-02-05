@@ -1,6 +1,7 @@
 import { format } from "date-fns";
 import { es } from "date-fns/locale";
 
+import {Link} from "react-router-dom";
 import eventFetcher from "../../utils/fetchEvents";
 import styles from "./Detail.module.css";
 
@@ -16,6 +17,7 @@ const Detail = () => {
     return (
         <div className={styles.container}>
             <div className={styles.mainInfoContainer}>
+                <Link to="/" className={styles.homeLink}>Inicio</Link>
                 <img src={eventData.images?.[0].url} className={styles.eventImage} alt={eventData.name} />
                 <h4 className={styles.eventName}>{eventData.name}</h4>
                 <p className={styles.infoParagraph}>{eventData.info}</p>

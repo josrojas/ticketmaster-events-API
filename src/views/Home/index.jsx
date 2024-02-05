@@ -10,7 +10,6 @@ const Home = () => {
     const { data, isLoading, error, fetchEvents } = useEventResults();
     const events = useMemo(() => data?._embedded?.events || [], [data?._embedded?.events]);
     const page = useMemo(() => data?.page || {}, [data?.page]);
-    const [isToggle, setIsToggle] = useState(false);
 
     const [searchTerm, setSearchTerm] = useState('')
     const containerRef = useRef();
@@ -42,7 +41,6 @@ const Home = () => {
 
         return (
             <div>
-                <button onClick={() => setIsToggle(!isToggle)}>{isToggle ? 'ON' : 'OFF'}</button>
                 <Events searchTerm={searchTerm} events={events} />
                 <ReactPaginate
                     className={styles.pagination}

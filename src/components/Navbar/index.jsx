@@ -29,10 +29,11 @@ const Navbar = forwardRef(({ onSearch }, ref) => {
             display: 'flex',
         }}>
             <div style={{ flex: 1, display: 'flex' }}>
-                <p style={{
+            <Link to="/" style={{
                     fontSize: '24px',
                     fontWeight: 'bold',
-                }}>Mi boletera</p>
+                    textDecoration: 'none'
+                }}>Mi boletera</Link>
             </div>
             <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'flex-end' }}>
                 <input

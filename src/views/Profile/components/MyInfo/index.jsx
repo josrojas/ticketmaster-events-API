@@ -10,7 +10,6 @@ const MyInfo = () => {
 
     useEffect(() => {
         try {
-            console.log(1010);
             const userData = JSON.parse(localStorage.getItem(USER_DATA)) || {};
 
             setValue('name', userData.name);
